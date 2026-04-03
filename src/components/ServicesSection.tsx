@@ -26,7 +26,7 @@ const ServicesSection = () => (
         <p className="text-muted-foreground max-w-2xl mx-auto">Ofrecemos una amplia gama de tratamientos preventivos, correctivos y estéticos en Hermosillo.</p>
       </div>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
         {services.map((s, i) => (
           <div
             key={s.name}

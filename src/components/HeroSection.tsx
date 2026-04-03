@@ -32,7 +32,7 @@ const HeroSection = () => (
         </div>
 
         <div className="animate-fade-up-delay">
-          <p className="text-lg md:text-xl text-primary-foreground/75 mb-10 leading-relaxed max-w-lg font-light">
+          <p className="text-base sm:text-lg md:text-xl text-primary-foreground/75 mb-10 leading-relaxed max-w-lg font-light">
             Tratamientos dentales de alta calidad para toda la familia. Desde limpiezas preventivas hasta estética dental avanzada.
           </p>
 

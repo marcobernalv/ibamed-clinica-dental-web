@@ -34,7 +34,7 @@ const ContactSection = () => {
           <p className="text-muted-foreground max-w-xl mx-auto">Contáctanos por WhatsApp para una respuesta inmediata o completa el formulario.</p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-14">
+        <div className="grid md:grid-cols-2 gap-10 lg:gap-14">
           <div>
             <Button variant="whatsapp" size="lg" className="w-full text-base py-6 rounded-full mb-10" asChild>
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">

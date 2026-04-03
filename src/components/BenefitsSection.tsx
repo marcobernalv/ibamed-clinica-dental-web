@@ -11,7 +11,7 @@ const benefits = [
 const BenefitsSection = () => (
   <section className="section-padding bg-background">
     <div className="container-narrow">
-      <div className="grid lg:grid-cols-2 gap-16 items-center">
+      <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
         <div>
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-px bg-primary" />
