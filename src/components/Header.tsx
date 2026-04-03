@@ -41,7 +41,7 @@ const Header = () => {
           </span>
         </a>
 
-        <nav className="hidden lg:flex items-center gap-8">
+        <nav className="hidden md:flex items-center gap-4 lg:gap-8">
           {navLinks.map((l) => (
             <a
               key={l.href}
