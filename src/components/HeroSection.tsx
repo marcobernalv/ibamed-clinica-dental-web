@@ -22,7 +22,7 @@ const HeroSection = () => (
             </span>
           </div>
 
-          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-[1.15] mb-6">
+          <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-primary-foreground leading-[1.15] mb-6">
             Cuidamos tu sonrisa
             <span className="block mt-1">
               con <em className="italic font-normal gold-accent">profesionalismo</em>
@@ -32,7 +32,7 @@ const HeroSection = () => (
         </div>
 
         <div className="animate-fade-up-delay">
-          <p className="text-lg md:text-xl text-primary-foreground/75 mb-10 leading-relaxed max-w-lg font-light">
+          <p className="text-base sm:text-lg md:text-xl text-primary-foreground/75 mb-10 leading-relaxed max-w-lg font-light">
             Tratamientos dentales de alta calidad para toda la familia. Desde limpiezas preventivas hasta estética dental avanzada.
           </p>
 

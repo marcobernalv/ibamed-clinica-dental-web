@@ -22,7 +22,7 @@ const GallerySection = () => (
         <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">Galería</h2>
         <p className="text-muted-foreground max-w-xl mx-auto">Un espacio moderno, limpio y diseñado para tu comodidad en Hermosillo.</p>
       </div>
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {images.map((img, i) => (
           <div key={i} className="overflow-hidden rounded-2xl aspect-square group elegant-shadow">
             <img

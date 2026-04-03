@@ -10,7 +10,7 @@ const features = [
 const AboutSection = () => (
   <section id="nosotros" className="section-padding bg-background">
     <div className="container-narrow">
-      <div className="grid lg:grid-cols-2 gap-16 lg:gap-20 items-center">
+      <div className="grid md:grid-cols-2 gap-12 md:gap-16 lg:gap-20 items-center">
         <div className="relative">
           <div className="absolute -inset-4 bg-accent/50 rounded-3xl -rotate-3" />
           <img
