@@ -69,7 +69,7 @@ const Header = () => {
           </Button>
         </div>
 
-        <button className="md:hidden p-2" onClick={() => setOpen(!open)} aria-label="Menú">
+        <button className="lg:hidden p-2" onClick={() => setOpen(!open)} aria-label="Menú">
           {open ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
         </button>
       </div>
