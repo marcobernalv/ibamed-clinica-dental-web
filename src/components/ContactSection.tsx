@@ -5,7 +5,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { MessageCircle, Phone, Instagram, Facebook } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
-const WHATSAPP_URL = "https://wa.me/5216621359567?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita";
+const WHATSAPP_URL = "https://wa.me/526621359567?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita";
 
 const ContactSection = () => {
   const { toast } = useToast();
@@ -14,7 +14,7 @@ const ContactSection = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const msg = `Hola, soy ${form.nombre}. ${form.servicio ? `Me interesa: ${form.servicio}. ` : ""}${form.mensaje}`.trim();
-    const url = `https://wa.me/5216621359567?text=${encodeURIComponent(msg)}`;
+    const url = `https://wa.me/526621359567?text=${encodeURIComponent(msg)}`;
     window.open(url, "_blank");
     toast({ title: "¡Mensaje enviado!", description: "Te redirigimos a WhatsApp para completar tu consulta." });
   };
@@ -41,7 +41,7 @@ const ContactSection = () => {
                 <Phone className="w-5 h-5 text-primary" />
                 <div>
                   <p className="font-medium text-foreground text-sm">Teléfono</p>
-                  <p className="text-muted-foreground text-sm">+52 662 135 9567</p>
+                  <p className="text-muted-foreground text-sm">662 135 9567</p>
                 </div>
               </a>
               <a href="https://www.instagram.com/ibamed_clinicadental" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-4 rounded-xl border border-border hover:bg-accent transition-colors">
