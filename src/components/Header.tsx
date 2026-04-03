@@ -55,7 +55,7 @@ const Header = () => {
           ))}
         </nav>
 
-        <div className="hidden lg:flex items-center gap-4">
+        <div className="hidden md:flex items-center gap-4">
           <a
             href="tel:+526623623930"
             className={`flex items-center gap-1.5 text-sm transition-colors ${
