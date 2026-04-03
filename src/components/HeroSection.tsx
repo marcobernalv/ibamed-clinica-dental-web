@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { MessageCircle, ArrowDown } from "lucide-react";
 import heroImg from "@/assets/hero-dental.jpg";
 
-const WHATSAPP_URL = "https://wa.me/526621359567?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita";
+const WHATSAPP_URL = "https://wa.me/5216621359567?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita";
 
 const HeroSection = () => (
   <section id="inicio" className="relative min-h-screen flex items-center">

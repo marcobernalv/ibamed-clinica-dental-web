@@ -15,7 +15,7 @@ const GallerySection = () => (
     <div className="container-narrow">
       <div className="text-center mb-12">
         <span className="text-sm font-semibold text-primary uppercase tracking-widest">Galería</span>
-        <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 mb-4">Conoce nuestras instalaciones</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 mb-4">Galería</h2>
         <p className="text-muted-foreground max-w-xl mx-auto">Un espacio moderno, limpio y diseñado para tu comodidad en Hermosillo.</p>
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
