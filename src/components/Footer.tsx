@@ -36,7 +36,7 @@ const Footer = () => (
               <a href="https://www.instagram.com/ibamed_clinicadental" target="_blank" rel="noopener noreferrer" className="hover:opacity-100 transition-opacity" aria-label="Instagram">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="https://www.facebook.com/IbamedClinica" target="_blank" rel="noopener noreferrer" className="hover:opacity-100 transition-opacity" aria-label="Facebook">
+              <a href="https://www.facebook.com/share/1THbtmzCo9/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="hover:opacity-100 transition-opacity" aria-label="Facebook">
                 <Facebook className="w-5 h-5" />
               </a>
             </div>
