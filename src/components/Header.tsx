@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Phone, Menu, X } from "lucide-react";
 
-const WHATSAPP_URL = "https://wa.me/526621359567?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita";
+const WHATSAPP_URL = "https://wa.me/526623623930?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita";
 
 const navLinks = [
   { label: "Inicio", href: "#inicio" },
@@ -33,8 +33,8 @@ const Header = () => {
         </nav>
 
         <div className="hidden lg:flex items-center gap-3">
-          <a href="tel:+526621359567" className="flex items-center gap-1 text-sm text-muted-foreground hover:text-primary">
-            <Phone className="w-4 h-4" /> 662 135 9567
+          <a href="tel:+526623623930" className="flex items-center gap-1 text-sm text-muted-foreground hover:text-primary">
+            <Phone className="w-4 h-4" /> 662 362 3930
           </a>
           <Button variant="whatsapp" size="sm" asChild>
             <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">WhatsApp</a>
