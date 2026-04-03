@@ -46,7 +46,7 @@ const ContactSection = () => {
               {[
                 { href: "tel:+526623623930", icon: Phone, label: "Teléfono", value: "662 362 3930" },
                 { href: "https://www.instagram.com/ibamed_clinicadental", icon: Instagram, label: "Instagram", value: "@ibamed_clinicadental" },
-                { href: "https://www.facebook.com/IbamedClinica", icon: Facebook, label: "Facebook", value: "Ibamed Clínica" },
+                { href: "https://www.facebook.com/share/1THbtmzCo9/?mibextid=wwXIfr", icon: Facebook, label: "Facebook", value: "Ibamed Clínica" },
               ].map((item) => (
                 <a
                   key={item.label}
