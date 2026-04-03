@@ -27,8 +27,8 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled
-          ? "bg-background/95 backdrop-blur-md border-b border-border shadow-sm"
+        scrolled || open
+          ? "bg-background backdrop-blur-md border-b border-border shadow-sm"
           : "bg-transparent border-b border-transparent"
       }`}
     >
@@ -75,7 +75,7 @@ const Header = () => {
       </div>
 
       {open && (
-        <div className="lg:hidden bg-background/98 backdrop-blur-lg border-b border-border px-6 pb-6 animate-fade-up" style={{ animationDuration: '0.3s' }}>
+        <div className="lg:hidden bg-background border-b border-border px-6 pb-6 animate-fade-up" style={{ animationDuration: '0.3s' }}>
           {navLinks.map((l) => (
             <a key={l.href} href={l.href} onClick={() => setOpen(false)} className="block py-3 text-sm font-medium text-muted-foreground hover:text-primary border-b border-border/50 last:border-0">
               {l.label}
