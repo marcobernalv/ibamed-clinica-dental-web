@@ -5,7 +5,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { MessageCircle, Phone, Instagram, Facebook } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
-const WHATSAPP_URL = "https://wa.me/526621359567?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita";
+const WHATSAPP_URL = "https://wa.me/5216621359567?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita";
 
 const ContactSection = () => {
   const { toast } = useToast();
