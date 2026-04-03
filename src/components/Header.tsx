@@ -41,12 +41,12 @@ const Header = () => {
           </span>
         </a>
 
-        <nav className="hidden md:flex items-center gap-4 lg:gap-8">
+        <nav className="hidden lg:flex items-center gap-6 xl:gap-8">
           {navLinks.map((l) => (
             <a
               key={l.href}
               href={l.href}
-              className={`text-sm font-medium transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-px after:bg-primary after:transition-all hover:after:w-full ${
+              className={`text-[13px] font-medium transition-colors whitespace-nowrap relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-px after:bg-primary after:transition-all hover:after:w-full ${
                 scrolled ? "text-muted-foreground hover:text-primary" : "text-primary-foreground/80 hover:text-primary-foreground"
               }`}
             >
@@ -55,7 +55,7 @@ const Header = () => {
           ))}
         </nav>
 
-        <div className="hidden md:flex items-center gap-4">
+        <div className="hidden lg:flex items-center gap-3">
           <a
             href="tel:+526623623930"
             className={`flex items-center gap-1.5 text-sm transition-colors ${
@@ -69,13 +69,13 @@ const Header = () => {
           </Button>
         </div>
 
-        <button className="md:hidden p-2" onClick={() => setOpen(!open)} aria-label="Menú">
+        <button className="lg:hidden p-2" onClick={() => setOpen(!open)} aria-label="Menú">
           {open ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
         </button>
       </div>
 
       {open && (
-        <div className="md:hidden bg-background border-b border-border px-6 pb-6 animate-fade-up" style={{ animationDuration: '0.3s' }}>
+        <div className="lg:hidden bg-background border-b border-border px-6 pb-6 animate-fade-up" style={{ animationDuration: '0.3s' }}>
           {navLinks.map((l) => (
             <a key={l.href} href={l.href} onClick={() => setOpen(false)} className="block py-3 text-sm font-medium text-muted-foreground hover:text-primary border-b border-border/50 last:border-0">
               {l.label}
