@@ -41,7 +41,7 @@ const ContactSection = () => {
                 <Phone className="w-5 h-5 text-primary" />
                 <div>
                   <p className="font-medium text-foreground text-sm">Teléfono</p>
-                  <p className="text-muted-foreground text-sm">+52 662 135 9567</p>
+                  <p className="text-muted-foreground text-sm">662 135 9567</p>
                 </div>
               </a>
               <a href="https://www.instagram.com/ibamed_clinicadental" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-4 rounded-xl border border-border hover:bg-accent transition-colors">
