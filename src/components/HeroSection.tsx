@@ -22,7 +22,7 @@ const HeroSection = () => (
             </span>
           </div>
 
-          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-[1.15] mb-6">
+          <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-primary-foreground leading-[1.15] mb-6">
             Cuidamos tu sonrisa
             <span className="block mt-1">
               con <em className="italic font-normal gold-accent">profesionalismo</em>
