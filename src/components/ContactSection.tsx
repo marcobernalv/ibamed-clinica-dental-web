@@ -13,7 +13,7 @@ const ContactSection = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const msg = `Hola, soy ${form.nombre}. ${form.servicio ? `Me interesa: ${form.servicio}. ` : ""}${form.mensaje}`.trim();
+    const msg = Hola, me interesa agendar una cita.\n\n*Nombre:* ${form.nombre}\n*Teléfono:* ${form.telefono}\n*Email:* ${form.email}\n*Servicio de interés:* ${form.servicio}\n\n*Mensaje:* ${form.mensaje};
     const url = `https://wa.me/526623623930?text=${encodeURIComponent(msg)}`;
     window.open(url, "_blank");
     toast({ title: "¡Mensaje enviado!", description: "Te redirigimos a WhatsApp para completar tu consulta." });
