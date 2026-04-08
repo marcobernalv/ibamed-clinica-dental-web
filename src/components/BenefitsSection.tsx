@@ -5,7 +5,7 @@ const benefits = [
   { num: "02", title: "Tecnología dental moderna", desc: "Equipos de última generación para diagnósticos precisos y tratamientos más cómodos." },
   { num: "03", title: "Ambiente cómodo y seguro", desc: "Instalaciones limpias, organizadas y pensadas para que te sientas tranquilo." },
   { num: "04", title: "Para toda la familia", desc: "Atendemos a niños, jóvenes y adultos con el mismo nivel de dedicación y calidad." },
-  { num: "05", title: "Resultados comprobados", desc: "Calificación de 5.0 en Google Maps con más de 28 reseñas de pacientes satisfechos." },
+  { num: "05", title: "Resultados comprobados", desc: "Calificación de 5.0 en Google con más de 28 reseñas de pacientes satisfechos." },
 ];
 
 const BenefitsSection = () => (
