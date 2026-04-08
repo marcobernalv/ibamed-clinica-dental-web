@@ -42,7 +42,7 @@ const LocationSection = () => (
               content: (
                 <div className="text-sm text-muted-foreground space-y-1.5">
                   <p><span className="font-medium text-foreground">Lunes a Viernes:</span> 9:30 – 13:00 y 15:00 – 19:00</p>
-                  <p><span className="font-medium text-foreground">Sábado:</span> 9:00 – 14:00</p>
+                  <p><span className="font-medium text-foreground">Sábado:</span> 9:30 – 14:00</p>
                   <p><span className="font-medium text-foreground">Domingo:</span> Cerrado</p>
                 </div>
               ),
