@@ -22,7 +22,7 @@ const TestimonialsSection = () => (
         <div className="flex items-center justify-center gap-2 text-muted-foreground mt-3">
           <div className="flex">{[...Array(5)].map((_, i) => <Star key={i} className="w-4 h-4 fill-gold text-gold" />)}</div>
           <span className="font-semibold text-foreground">5.0</span>
-          <span className="text-sm">· 28+ reseñas en Google</span>
+          <span className="text-sm">· 28+ reseñas en Google Maps</span>
         </div>
       </div>
 
