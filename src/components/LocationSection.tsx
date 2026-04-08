@@ -18,7 +18,7 @@ const LocationSection = () => (
       <div className="grid md:grid-cols-2 gap-8">
         <div className="rounded-2xl overflow-hidden elegant-shadow-lg h-[400px]">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3487.1!2d-110.990507!3d29.0892169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ce8441e8bfffff%3A0x0!2sIbamed+Cl%C3%ADnica+Dental!5e0!3m2!1ses-419!2smx!4v1"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6973.1150881119875!2d-110.990507!3d29.0892169!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ce858a3d7b0c41%3A0x9e747c2d2e4dc9b7!2sIbamed%20Cl%C3%ADnica%20Dental!5e0!3m2!1ses-419!2smx!4v1775619383738!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
             width="100%"
             height="100%"
             style={{ border: 0 }}
