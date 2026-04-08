@@ -1,12 +1,12 @@
 import { Sparkles, ShieldCheck, Smile, Stethoscope, CircleDot, Wrench, Baby, Search } from "lucide-react";
 
 const services = [
-  { icon: Sparkles, name: "Ortodoncia", desc: "Correción de la alineación dental mediante brackets o retenedores.", benefit: "Sonrisa alineada" },
-  { icon: ShieldCheck, name: "Ortopedia maxilar", desc: "Guía el crecimiento de maxilares en niños", benefit: "Desarrollo correcto" },
-  { icon: Smile, name: "Endodoncia", desc: "Tratamiento de conducto para salvar piezas dentales dañadas, eliminando el dolor.", benefit: "Conserva tus dientes" },
-  { icon: Stethoscope, name: "Cirugía maxilofacial", desc: "Tratamientos quirúrgicos de boca y mandíbula.", benefit: "Solución efectiva" },
-  { icon: CircleDot, name: "Rehabilitación oral", desc: "Recupera función y estética dental.", benefit: "Sonrisa completa" },
-  { icon: Wrench, name: "Odontología general", desc: "Limpiezas, resinas y revisiones.", benefit: "Salud bucal" },
+  { icon: Sparkles, name: "Ortodoncia", desc: "Alinea tus dientes con tratamientos modernos y cómodos.", benefit: "Mejora tu sonrisa y confianza" },
+  { icon: ShieldCheck, name: "Ortopedia maxilar", desc: "Corrige el desarrollo de los maxilares desde temprana edad.", benefit: "Evita problemas futuros" },
+  { icon: Smile, name: "Endodoncia", desc: "Elimina infecciones y salva tu diente sin necesidad de extraerlo.", benefit: "Alivio inmediato del dolor" },
+  { icon: Stethoscope, name: "Cirugía maxilofacial", desc: "Solución segura para problemas complejos de boca y mandíbula.", benefit: "Resultados precisos y seguros" },
+  { icon: CircleDot, name: "Rehabilitación oral", desc: "Recupera la función y estética de tu sonrisa con tratamientos personalizados.", benefit: "Vuelve a sonreír con seguridad" },
+  { icon: Wrench, name: "Odontología general", desc: "Atención completa para mantener tu salud bucal en óptimas condiciones.", benefit: "Prevención y cuidado continuo" },
 ];
 
 const ServicesSection = () => (
