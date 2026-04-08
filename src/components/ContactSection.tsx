@@ -100,14 +100,13 @@ const ContactSection = () => {
                 className="flex h-10 w-full rounded-xl border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
               >
                 <option value="">Seleccionar servicio</option>
-                <option>Limpieza dental</option>
-                <option>Blanqueamiento dental</option>
-                <option>Resinas dentales</option>
+                <option>Ortodoncia</option>
+                <option>Ortopedia maxilar</option>
                 <option>Endodoncia</option>
-                <option>Prótesis dentales</option>
-                <option>Odontología estética</option>
-                <option>Revisión y diagnóstico</option>
-                <option>Otro</option>
+                <option>Cirugía maxilofacial</option>
+                <option>Rehabilitación oral</option>
+                <option>Odontología general</option>
+              <option>Otro</option>
               </select>
             </div>
             <div>
