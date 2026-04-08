@@ -1,14 +1,12 @@
 import { Sparkles, ShieldCheck, Smile, Stethoscope, CircleDot, Wrench, Baby, Search } from "lucide-react";
 
 const services = [
-  { icon: Sparkles, name: "Blanqueamiento dental", desc: "Recupera el brillo natural de tus dientes con técnicas seguras y resultados visibles.", benefit: "Sonrisa más blanca y radiante" },
-  { icon: ShieldCheck, name: "Limpieza dental", desc: "Elimina sarro y placa bacteriana para prevenir enfermedades y mantener una boca saludable.", benefit: "Prevención y frescura" },
-  { icon: Smile, name: "Odontología estética", desc: "Mejora la apariencia de tu sonrisa con resinas, carillas y tratamientos cosméticos.", benefit: "La sonrisa que siempre quisiste" },
-  { icon: Stethoscope, name: "Endodoncia", desc: "Tratamiento de conducto para salvar piezas dentales dañadas, eliminando el dolor.", benefit: "Conserva tus dientes" },
-  { icon: CircleDot, name: "Resinas dentales", desc: "Restauraciones estéticas del color de tus dientes para reparar caries o fracturas.", benefit: "Reparación natural" },
-  { icon: Wrench, name: "Prótesis dentales", desc: "Devuelve funcionalidad y estética a tu boca con prótesis modernas y cómodas.", benefit: "Funcionalidad completa" },
-  { icon: Baby, name: "Odontopediatría", desc: "Cuidado dental especializado para los más pequeños en un ambiente amigable.", benefit: "Atención para toda la familia" },
-  { icon: Search, name: "Diagnóstico dental", desc: "Evaluación completa de tu salud bucal con tecnología moderna y precisa.", benefit: "Detección temprana" },
+  { icon: Sparkles, name: "Ortodoncia", desc: "Correción de la alineación dental mediante brackets o retenedores.", benefit: "Sonrisa alineada" },
+  { icon: ShieldCheck, name: "Ortopedia maxilar", desc: "Guía el crecimiento de maxilares en niños", benefit: "Desarrollo correcto" },
+  { icon: Smile, name: "Endodoncia", desc: "Tratamiento de conducto para salvar piezas dentales dañadas, eliminando el dolor.", benefit: "Conserva tus dientes" },
+  { icon: Stethoscope, name: "Cirugía maxilofacial", desc: "Tratamientos quirúrgicos de boca y mandíbula.", benefit: "Solución efectiva" },
+  { icon: CircleDot, name: "Rehabilitación oral", desc: "Recupera función y estética dental.", benefit: "Sonrisa completa" },
+  { icon: Wrench, name: "Odontología general", desc: "Limpiezas, resinas y revisiones.", benefit: "Salud bucal" },
 ];
 
 const ServicesSection = () => (
